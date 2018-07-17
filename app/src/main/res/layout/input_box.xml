@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtmsz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/todoname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/daytxt"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:minLines="4"
+        android:textSize="15sp" />
+
+
+    <EditText
+        android:id="@+id/datetxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:inputType="date"
+        android:textSize="15sp" />
+
+
+    <EditText
+        android:id="@+id/timetxt"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:inputType="time"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnset"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+
+        android:text="DONE" />
+
+</LinearLayout>
